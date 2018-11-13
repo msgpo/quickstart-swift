@@ -1,0 +1,16 @@
+PODS:
+  - SnipsPlatform (0.59.0)
+
+DEPENDENCIES:
+  - SnipsPlatform
+
+SPEC REPOS:
+  https://github.com/Snipsco/Specs.git:
+    - SnipsPlatform
+
+SPEC CHECKSUMS:
+  SnipsPlatform: 55e9fdcd6a24f44052b0447b5c6df5c1bd2bca72
+
+PODFILE CHECKSUM: 862ffd0c33fe4b29ee82dc917b28a43cfb46b874
+
+COCOAPODS: 1.5.3
