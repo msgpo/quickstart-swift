@@ -4,7 +4,7 @@
 ![Swift 4.1.x](https://img.shields.io/badge/Swift-4.1.x-orange.svg)
 ![Platforms](https://img.shields.io/badge/platforms-iOS%20-lightgrey.svg)
 
-Sample code for the [iOS Quick Start](https://snips.gitbook.io/documentation/getting-started/quick-start-ios) guide on the [Snips Dev Center](https://snips.gitbook.io/documentation/).
+Sample code for the [iOS Quick Start](https://docs.snips.ai/getting-started/quick-start-ios) guide on the [Snips Dev Center](https://docs.snips.ai).
 
 ## Contributing
 
