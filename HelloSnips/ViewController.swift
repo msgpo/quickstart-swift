@@ -60,7 +60,9 @@ class ViewController: UIViewController {
         audioEngine.attach(downMixer)
         audioEngine.connect(input, to: downMixer, format: nil)
         downMixer.installTap(onBus: 0, bufferSize: 1024, format: recordingFormat) { (buffer, time) in
-            snips.appendBuffer(buffer)
+            do {
+                try snips.appendBuffer(buffer)
+            } catch {}
         }
         audioEngine.prepare()
         return audioEngine
@@ -76,8 +78,8 @@ class ViewController: UIViewController {
                     "Probability: %.3f\n" +
                     "Slots:\n\t%@",
                     intent.input,
-                    intent.intent?.intentName ?? "",
-                    intent.intent?.probability ?? 0,
+                    intent.intent?.intentName,
+                    intent.intent?.probability,
                     intent.slots.map { "\($0.slotName): \($0.value)" }.joined(separator: "\n\t")
                 )
             }
