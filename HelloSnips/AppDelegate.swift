@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  HelloSnips
 //
-//  Copyright © 2018 Snips. All rights reserved.
+//  Copyright © 2019 Snips. All rights reserved.
 //
 
 import UIKit
