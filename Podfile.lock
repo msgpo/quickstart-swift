@@ -1,16 +1,16 @@
 PODS:
-  - SnipsPlatform (0.59.0)
+  - SnipsPlatform (0.63.2)
 
 DEPENDENCIES:
   - SnipsPlatform
 
 SPEC REPOS:
-  https://github.com/Snipsco/Specs.git:
+  https://github.com/snipsco/Specs:
     - SnipsPlatform
 
 SPEC CHECKSUMS:
-  SnipsPlatform: 55e9fdcd6a24f44052b0447b5c6df5c1bd2bca72
+  SnipsPlatform: d1f098657e8b9ad85d98fc1053c99ee49958e746
 
-PODFILE CHECKSUM: 862ffd0c33fe4b29ee82dc917b28a43cfb46b874
+PODFILE CHECKSUM: f75b4241fb3241bbd9b0678162825bd13aa553f2
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0.rc.2

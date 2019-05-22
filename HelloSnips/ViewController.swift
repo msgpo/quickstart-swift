@@ -78,8 +78,8 @@ class ViewController: UIViewController {
                     "Probability: %.3f\n" +
                     "Slots:\n\t%@",
                     intent.input,
-                    intent.intent?.intentName,
-                    intent.intent?.probability,
+                    intent.intent.intentName,
+                    intent.intent.confidenceScore,
                     intent.slots.map { "\($0.slotName): \($0.value)" }.joined(separator: "\n\t")
                 )
             }
